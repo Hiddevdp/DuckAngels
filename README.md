@@ -3,10 +3,10 @@
 ## Intro
 Als team gaan we een app maken met data die van onze persoonlijke apps komen. We gingen als team bespreken wat elk team lid wil maken voor zijn persoonlijke app.
 
-Max: Muziek
-Karenza: Muziek
-Hidde: Film
-Xiao Nan: Eten
+- Max: Muziek
+- Karenza: Muziek
+- Hidde: Film
+- Xiao Nan: Eten
 
 Als team hebben wij besloten om een app te maken over muziek. Het eerste idee is om een one pager te maken, elke section van elk teamlid met een intro van het favoriete genre van elk team lid en kleur en emoji.
 
