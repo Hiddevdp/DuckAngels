@@ -1,0 +1,55 @@
+.personalInfo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+article {
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
+
+article h3 {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: start;
+}
+
+article ul {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: end;
+}
+
+article li {
+    list-style: none;
+}
+
+article img {
+    grid-column: 2;
+    grid-row: span 2;
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 600px) {
+    .personalInfo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* article{
+        display: grid;
+        grid-template-rows: 100px 100px 100px;
+        gap: 20px;
+    } */
+
+
+}
+
