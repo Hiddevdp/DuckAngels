@@ -1,3 +1,4 @@
+/* vanaf hier mij deel */
 .personalInfo {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -5,51 +6,96 @@
 }
 
 article {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 150px;
     box-sizing: border-box;
-    padding: 20px;
     border: 1px solid #ddd;
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
     gap: 20px;
+    position: relative;
 }
 
 article h3 {
     grid-column: 1;
     grid-row: 1;
     align-self: start;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    margin: 0;
 }
 
 article ul {
     grid-column: 1;
     grid-row: 2;
     align-self: end;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 30px;
+    top: -20px;
 }
 
 article li {
     list-style: none;
+
+    margin: 0;
 }
 
 article img {
     grid-column: 2;
     grid-row: span 2;
-
-    width: 100%;
-    max-width: 100%;
+    position: relative;
+    right: 20px;
+    top: 20px;
+    width: 110px;
+    max-width: 110px;
     height: auto;
 }
 
+
+/* waar is de beste om groter te maken */
 @media (min-width: 600px) {
-    .personalInfo {
-        grid-template-columns: repeat(2, 1fr);
+
+    h2 {
+        position: relative;
+        left: 60px;
     }
 
-    /* article{
-        display: grid;
-        grid-template-rows: 100px 100px 100px;
-        gap: 20px;
-    } */
+    .personalInfo {
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+        gap: 10px;
+        margin: 60px;
+    }
+
+    article {
+        width: 300px;
+        height: 320px;
+        position: relative;
+        margin: 0;
+    }
+
+    article h3 {
+        position: relative;
+        top: 190px;
+
+    }
+
+    article ul {
+        position: relative;
+        top: -30px;
+
+    }
+
+    article img {
+        position: relative;
+        top: 30px;
+        right: 30px;
+    }
 
 
 }
-
