@@ -1,7 +1,67 @@
+:root {
+    --color-border: #ddd;
+    --color-article: lightgray;
+    --color-headers: black;
+    --color-text: black;
+    --color-image: white;
+    --color-button: lightgray;
+    --color-listitem: white;
+}
+
+/* BODY */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.visually-hidden {
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+}
+
+
+/* HEADER */
+header nav {
+    display: flex;
+    justify-content: center;
+    padding-bottom: .5em;
+    border-bottom: 2px solid var(--color-border);
+    position: relative;
+}
+
+header nav img {
+    width: 150px;
+    height: 60px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 10px;
+    color: var(--color-text);
+    background-color: var(--color-button);
+    padding: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 2px solid var(--color-border);
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+
+/* PERSONAL INFO */
 .personalInfo {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
+    position: relative;
 }
 
 article {
@@ -9,53 +69,68 @@ article {
     margin-right: 20px;
     height: 150px;
     box-sizing: border-box;
-    border: 1px solid #ddd;
+    border: 1px solid var(--color-border);
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
     gap: 20px;
     position: relative;
+    top: 30px;
+    background-color: var(--color-article);
 }
 
 article h3 {
+    font-size: 25px;
     grid-column: 1;
     grid-row: 1;
     align-self: start;
     position: relative;
-    left: 30px;
+    left: 20px;
     top: 20px;
     margin: 0;
 }
 
 article ul {
+    max-width: 160px;
     grid-column: 1;
     grid-row: 2;
-    align-self: end;
+    display: flex;
+    gap: 1px;
+    flex-wrap: wrap;
+    align-self: flex-start;
     padding: 0;
     margin: 0;
     position: relative;
-    left: 30px;
+    left: 20px;
     top: -20px;
 }
 
 article li {
+    font-size: 15px;
     list-style: none;
-
     margin: 0;
+    max-width: max-content;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-listitem);
+    padding: 3px;
 }
 
 article img {
     grid-column: 2;
     grid-row: span 2;
     position: relative;
-    right: 20px;
+    right: 10px;
     top: 20px;
     width: 110px;
-    max-width: 110px;
-    height: auto;
+    height: 110px;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-image);
 }
 
 
+
+
+/* desktop */
 @media (min-width: 600px) {
 
     h2 {
@@ -79,13 +154,17 @@ article img {
 
     article h3 {
         position: relative;
-        top: 190px;
+        top: 160px;
 
     }
 
     article ul {
         position: relative;
-        top: -30px;
+        top: -20px;
+        align-self: flex-end;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 150px;
 
     }
 
@@ -93,6 +172,8 @@ article img {
         position: relative;
         top: 30px;
         right: 30px;
+        height: 150px;
+        width: 150px;
     }
 
 
