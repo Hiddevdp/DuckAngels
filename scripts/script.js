@@ -9,6 +9,7 @@ async function siteInfo() { //Functie die de JSON file gaat ophalen en waardes g
 }
 siteInfo() //Voert de functie uit 
 
+// Bron: https://www.w3schools.com/jsref/met_node_insertadjacenthtml.asp
 function changeData(siteJson) {
     Object.values(siteJson.mensen).forEach(item => {
         const name = item.naam;
