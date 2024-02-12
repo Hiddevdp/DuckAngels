@@ -15,7 +15,7 @@ function hideLoading() {
 }
 
 async function siteInfo() { //Functie die de JSON file gaat ophalen en waardes gaat veranderen
-    const response = await fetch("info.json"); //Maakt de variabele response aan door het JSON bestand te fetchen (en te wachten tot het binnen is doormiddel van await)
+    const response = await fetch("team.json"); //Maakt de variabele response aan door het JSON bestand te fetchen (en te wachten tot het binnen is doormiddel van await)
     const siteJson = await response.json(); //Zet het JSON bestand wat binnen komt als text om naar een JSON
     // document.getElementById('namePlaceholder').innerText = siteJson.name; //Zoekt het element met de Id namePlaceholder op en past de waarde aan gebaseerd op wat er in de variabele siteJson staat met de key (idk of het ook zo heet in JSON) name
     // console.log(siteJson)
@@ -30,10 +30,10 @@ siteInfo() //Voert de functie uit
 function personalInfoData(siteJson) { //Maak een functie met als parameter de data.
     const personalInfoSection = document.querySelector(".personalInfo"); // Select de dom van waar de content moet omen
 
-    Object.values(siteJson.mensen).forEach(item => { // Doe een foreach op de mensen array
+    Object.values(siteJson.members).forEach(item => { // Doe een foreach op de mensen array
 
         // Maak variables aan met de juiste data die opgehaald moet worden
-        const name = item.naam;
+        const name = item.name;
         const img = item.image;
         const date = item.geboortedatum;
         const city = item.woonplaats;
@@ -64,7 +64,7 @@ function personalInfoData(siteJson) { //Maak een functie met als parameter de da
 function muziekData(siteJson) {
     const songsSection = document.querySelector(".songs");
 
-    siteJson.mensen.forEach(user => { // Zoe een foreach op de users
+    siteJson.members.forEach(user => { // Zoe een foreach op de users
         user.tracks.forEach(item => { // Doe een foreach op tracks van elke user
             const name = item.name;
             const artist = item.artists[0].name;
