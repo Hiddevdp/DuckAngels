@@ -193,7 +193,7 @@ main {
 header nav {
     display: flex;
     justify-content: center;
-    padding-bottom: .5em;
+    padding: 10px;
     border-bottom: 2px solid var(--color-border);
     position: relative;
 }
