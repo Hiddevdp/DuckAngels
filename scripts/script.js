@@ -14,27 +14,34 @@ function hideLoading() {
     content.style.display = "grid";
 }
 
+
+
 async function siteInfo() { //Functie die de JSON file gaat ophalen en waardes gaat veranderen
     const response = await fetch("info.json"); //Maakt de variabele response aan door het JSON bestand te fetchen (en te wachten tot het binnen is doormiddel van await)
     const siteJson = await response.json(); //Zet het JSON bestand wat binnen komt als text om naar een JSON
     // document.getElementById('namePlaceholder').innerText = siteJson.name; //Zoekt het element met de Id namePlaceholder op en past de waarde aan gebaseerd op wat er in de variabele siteJson staat met de key (idk of het ook zo heet in JSON) name
     // console.log(siteJson)
 
-    personalInfoData(siteJson);
+    //Voer de functie uit als de data is ingeladen
+    personalInfoData(siteJson); 
     muziekData(siteJson);
 }
 siteInfo() //Voert de functie uit 
 
 // Bron: https://www.w3schools.com/jsref/met_node_insertadjacenthtml.asp
-function personalInfoData(siteJson) {
-    const personalInfoSection = document.querySelector(".personalInfo");
-    Object.values(siteJson.mensen).forEach(item => {
+function personalInfoData(siteJson) { //Maak een functie met als parameter de data.
+    const personalInfoSection = document.querySelector(".personalInfo"); // Select de dom van waar de content moet omen
+
+    Object.values(siteJson.mensen).forEach(item => { // Doe een foreach op de mensen array
+
+        // Maak variables aan met de juiste data die opgehaald moet worden
         const name = item.naam;
         const img = item.image;
         const date = item.geboortedatum;
         const city = item.woonplaats;
         const genre = item.favoriet_genre;
 
+        // Maak een variable html aan om een soort van template te maken can de dom.
         const html = 
         `
         <article>
@@ -49,12 +56,18 @@ function personalInfoData(siteJson) {
         `;
         personalInfoSection.insertAdjacentHTML("beforeend", html);
     });
+
+    // Met ${} plaats je de data op de juiste plek.
+    // insertAdjacentHTML is een methode om html tekst toe te voegen. beforeend is een parameter die zegt waar de html gezet moet worden. 
 };
 
+// Bron: Chatgpt
+// Zie prompts: https://chemical-bunny-323.notion.site/Chat-GPT-Documentatie-d93ea570990b4754bec559e9bfcc2217#0c8f89c5cf764153b708b3542425c72f
 function muziekData(siteJson) {
     const songsSection = document.querySelector(".songs");
-    siteJson.mensen.forEach(user => {
-        user.tracks.forEach(item => {
+
+    siteJson.mensen.forEach(user => { // Zoe een foreach op de users
+        user.tracks.forEach(item => { // Doe een foreach op tracks van elke user
             const name = item.name;
             const artist = item.artists[0].name;
             const album = item.album.name;
