@@ -72,25 +72,27 @@ function muziekData(siteJson) {
             const year = item.album.release_date;
             const img = item.album.images[1].url;
             const genre = item.album.genre;
-            const userImg = user.image; // Profile picture of the user
+            const userImg = user.image; 
 
             const html = 
             ` 
             <article>
-                    <h2>${name}</h2>
-                    <ul>
-                        <li>Artist: ${artist}</li>
-                        <li>Album: ${album} - ${year}</li>
-                    </ul>
-                    <h3>${genre}</h3>
+                <h2>${name}</h2>
+                <ul>
+                    <li>Artist: ${artist}</li>
+                    <li>Album: ${album} - ${year}</li>
+                </ul>
+                <h3>${genre}</h3>
+                <div>
+                    <img src="${img}" alt="${name}">
                     <div>
-                        <img src="${img}" alt="Album Cover">
-                        <div>
-                            <div></div>
-                        </div>
-                        <img src="${userImg}" alt="Profile Picture"> <!-- Replace placeholder with user's profile picture -->
+                        <div></div>
                     </div>
-                </article>
+                    <img src="${userImg}" alt="">
+                </div>
+                <div></div>
+                <img src="${img}" alt="${name}">
+            </article>
             `;
             songsSection.insertAdjacentHTML("beforeend", html);
         });
