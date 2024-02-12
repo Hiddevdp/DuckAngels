@@ -14,8 +14,6 @@ function hideLoading() {
     content.style.display = "grid";
 }
 
-
-
 async function siteInfo() { //Functie die de JSON file gaat ophalen en waardes gaat veranderen
     const response = await fetch("info.json"); //Maakt de variabele response aan door het JSON bestand te fetchen (en te wachten tot het binnen is doormiddel van await)
     const siteJson = await response.json(); //Zet het JSON bestand wat binnen komt als text om naar een JSON
