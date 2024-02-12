@@ -142,7 +142,7 @@ main {
     height: 100px;
   }
 }
-=======
+
 :root {
     --color-border: #ddd;
     --color-article: lightgray;
@@ -249,7 +249,7 @@ header a {
     position: relative;
 }
 
-article {
+.personalInfo article {
     margin-left: 20px;
     margin-right: 20px;
     height: 150px;
@@ -264,7 +264,7 @@ article {
     background-color: var(--color-article);
 }
 
-article h3 {
+.personalInfo article h3 {
     font-size: 25px;
     grid-column: 1;
     grid-row: 1;
@@ -275,7 +275,7 @@ article h3 {
     margin: 0;
 }
 
-article ul {
+.personalInfo article ul {
     max-width: 160px;
     grid-column: 1;
     grid-row: 2;
@@ -290,7 +290,7 @@ article ul {
     top: -20px;
 }
 
-article li {
+.personalInfo article li {
     font-size: 15px;
     list-style: none;
     margin: 0;
@@ -300,7 +300,7 @@ article li {
     padding: 3px;
 }
 
-article img {
+.personalInfo article img {
     grid-column: 2;
     grid-row: span 2;
     position: relative;
@@ -334,20 +334,20 @@ article img {
         left: 60px;
     }
 
-    article {
+    .personalInfo article {
         width: 300px;
         height: 320px;
         position: relative;
         margin: 0;
     }
 
-    article h3 {
+    .personalInfo article h3 {
         position: relative;
         top: 160px;
 
     }
 
-    article ul {
+    .personalInfo article ul {
         position: relative;
         top: -20px;
         align-self: flex-end;
@@ -357,7 +357,7 @@ article img {
 
     }
 
-    article img {
+    .personalInfo article img {
         position: relative;
         top: 30px;
         right: 30px;
