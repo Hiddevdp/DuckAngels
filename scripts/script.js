@@ -1,18 +1,16 @@
-
 // loading state
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () { //Laat de DOM eerst inladen
     setTimeout(function () {
         hideLoading(); 
-    }, 1000); 
+    }, 1000); // 1 sec wachten tot we hideLoading functie aanroepen
 });
 
-// na de timer, content laten zien
-function hideLoading() {
-    var loadingContainer = document.getElementById("loadingContainer");
-    var content = document.querySelector("main");
+function hideLoading() { // functie voor hideLoading
+    var loadingContainer = document.getElementById("loadingContainer"); // defineer de loading container met de id: loading container 
+    var content = document.querySelector("main"); // haal de content "main" op
 
-    loadingContainer.style.display = "none";
-    content.style.display = "block";
+    loadingContainer.style.display = "none"; // verberg dan de loading container 
+    content.style.display = "block"; // toon de content in block stijl
 }
 
 async function siteInfo() { //Functie die de JSON file gaat ophalen en waardes gaat veranderen
