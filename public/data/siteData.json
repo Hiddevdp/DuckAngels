@@ -1198,7 +1198,427 @@
         "geboortedatum": "25-03-1999",
         "favoriet_genre": "Hip-Hop",
         "image": "./public/img/hidde.jpeg",
-        "woonplaats": "Amsterdam"
+        "woonplaats": "Amsterdam",
+        "tracks": [
+          {
+            "album": {
+              "album_type": "single",
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/33W1pnW9zScZtYTnAoWnOT"
+                  },
+                  "id": "33W1pnW9zScZtYTnAoWnOT",
+                  "name": "Mr. Probz",
+                  "type": "artist",
+                  "uri": "spotify:artist:33W1pnW9zScZtYTnAoWnOT"
+                },
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3jK9MiCrA42lLAdMGUZpwa"
+                  },
+                  "id": "3jK9MiCrA42lLAdMGUZpwa",
+                  "name": "Anderson .Paak",
+                  "type": "artist",
+                  "uri": "spotify:artist:3jK9MiCrA42lLAdMGUZpwa"
+                }
+              ],
+              "external_urls": {
+                "spotify": "https://open.spotify.com/album/2FlJ62X79IvqPB5S1aJuUr"
+              },
+              "id": "2FlJ62X79IvqPB5S1aJuUr",
+              "images": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab67616d0000b27309c6e0ec1172dacb762f6478",
+                  "width": 640
+                },
+                {
+                  "height": 300,
+                  "url": "https://i.scdn.co/image/ab67616d00001e0209c6e0ec1172dacb762f6478",
+                  "width": 300
+                },
+                {
+                  "height": 64,
+                  "url": "https://i.scdn.co/image/ab67616d0000485109c6e0ec1172dacb762f6478",
+                  "width": 64
+                }
+              ],
+              "is_playable": true,
+              "name": "Gone",
+              "release_date": "2017-09-01",
+              "release_date_precision": "day",
+              "total_tracks": 1,
+              "type": "album",
+              "uri": "spotify:album:2FlJ62X79IvqPB5S1aJuUr"
+            },
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/33W1pnW9zScZtYTnAoWnOT"
+                },
+                "id": "33W1pnW9zScZtYTnAoWnOT",
+                "name": "Mr. Probz",
+                "type": "artist",
+                "uri": "spotify:artist:33W1pnW9zScZtYTnAoWnOT"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/3jK9MiCrA42lLAdMGUZpwa"
+                },
+                "id": "3jK9MiCrA42lLAdMGUZpwa",
+                "name": "Anderson .Paak",
+                "type": "artist",
+                "uri": "spotify:artist:3jK9MiCrA42lLAdMGUZpwa"
+              }
+            ],
+            "disc_number": 1,
+            "duration_ms": 220454,
+            "explicit": true,
+            "external_ids": {
+              "isrc": "NLB8R1700008"
+            },
+            "external_urls": {
+              "spotify": "https://open.spotify.com/track/3VoohMZ7fXyNX2xRZFHSOp"
+            },
+            "id": "3VoohMZ7fXyNX2xRZFHSOp",
+            "is_local": false,
+            "is_playable": true,
+            "name": "Gone",
+            "popularity": 39,
+            "preview_url": "https://p.scdn.co/mp3-preview/292f2b59e641dd61479d174377c8b4e1acd1e7ca?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+            "track_number": 1,
+            "type": "track",
+            "uri": "spotify:track:3VoohMZ7fXyNX2xRZFHSOp"
+          },
+          {
+            "album": {
+              "album_type": "album",
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+                  },
+                  "id": "246dkjvS1zLTtiykXe5h60",
+                  "name": "Post Malone",
+                  "type": "artist",
+                  "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+                }
+              ],
+              "external_urls": {
+                "spotify": "https://open.spotify.com/album/6trNtQUgC8cgbWcqoMYkOR"
+              },
+              "id": "6trNtQUgC8cgbWcqoMYkOR",
+              "images": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab67616d0000b273b1c4b76e23414c9f20242268",
+                  "width": 640
+                },
+                {
+                  "height": 300,
+                  "url": "https://i.scdn.co/image/ab67616d00001e02b1c4b76e23414c9f20242268",
+                  "width": 300
+                },
+                {
+                  "height": 64,
+                  "url": "https://i.scdn.co/image/ab67616d00004851b1c4b76e23414c9f20242268",
+                  "width": 64
+                }
+              ],
+              "is_playable": true,
+              "name": "beerbongs & bentleys",
+              "release_date": "2018-04-27",
+              "release_date_precision": "day",
+              "total_tracks": 18,
+              "type": "album",
+              "uri": "spotify:album:6trNtQUgC8cgbWcqoMYkOR"
+            },
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+                },
+                "id": "246dkjvS1zLTtiykXe5h60",
+                "name": "Post Malone",
+                "type": "artist",
+                "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+              }
+            ],
+            "disc_number": 1,
+            "duration_ms": 231266,
+            "explicit": true,
+            "external_ids": {
+              "isrc": "USUM71805170"
+            },
+            "external_urls": {
+              "spotify": "https://open.spotify.com/track/7dt6x5M1jzdTEt8oCbisTK"
+            },
+            "id": "7dt6x5M1jzdTEt8oCbisTK",
+            "is_local": false,
+            "is_playable": true,
+            "name": "Better Now",
+            "popularity": 84,
+            "preview_url": "https://p.scdn.co/mp3-preview/1aa169aa2705c55c3c5e8d93dea91b682225ae59?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+            "track_number": 9,
+            "type": "track",
+            "uri": "spotify:track:7dt6x5M1jzdTEt8oCbisTK"
+          },
+          {
+            "album": {
+              "album_type": "album",
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3ycxRkcZ67ALN3GQJ57Vig"
+                  },
+                  "id": "3ycxRkcZ67ALN3GQJ57Vig",
+                  "name": "Masego",
+                  "type": "artist",
+                  "uri": "spotify:artist:3ycxRkcZ67ALN3GQJ57Vig"
+                }
+              ],
+              "external_urls": {
+                "spotify": "https://open.spotify.com/album/1S0yIZRDiFmqCQyTIEV175"
+              },
+              "id": "1S0yIZRDiFmqCQyTIEV175",
+              "images": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab67616d0000b273472da7a855e1446b36bcb83b",
+                  "width": 640
+                },
+                {
+                  "height": 300,
+                  "url": "https://i.scdn.co/image/ab67616d00001e02472da7a855e1446b36bcb83b",
+                  "width": 300
+                },
+                {
+                  "height": 64,
+                  "url": "https://i.scdn.co/image/ab67616d00004851472da7a855e1446b36bcb83b",
+                  "width": 64
+                }
+              ],
+              "is_playable": true,
+              "name": "Studying Abroad: Extended Stay",
+              "release_date": "2020-11-13",
+              "release_date_precision": "day",
+              "total_tracks": 11,
+              "type": "album",
+              "uri": "spotify:album:1S0yIZRDiFmqCQyTIEV175"
+            },
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/3ycxRkcZ67ALN3GQJ57Vig"
+                },
+                "id": "3ycxRkcZ67ALN3GQJ57Vig",
+                "name": "Masego",
+                "type": "artist",
+                "uri": "spotify:artist:3ycxRkcZ67ALN3GQJ57Vig"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/4Gso3d4CscCijv0lmajZWs"
+                },
+                "id": "4Gso3d4CscCijv0lmajZWs",
+                "name": "Don Toliver",
+                "type": "artist",
+                "uri": "spotify:artist:4Gso3d4CscCijv0lmajZWs"
+              }
+            ],
+            "disc_number": 1,
+            "duration_ms": 228453,
+            "explicit": false,
+            "external_ids": {
+              "isrc": "USUM72021142"
+            },
+            "external_urls": {
+              "spotify": "https://open.spotify.com/track/0bkTdkWwGk3OGFX0afD3Wj"
+            },
+            "id": "0bkTdkWwGk3OGFX0afD3Wj",
+            "is_local": false,
+            "is_playable": true,
+            "name": "Mystery Lady",
+            "popularity": 73,
+            "preview_url": "https://p.scdn.co/mp3-preview/10dca6f8383fc77253643230087268cfd097c5ac?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+            "track_number": 3,
+            "type": "track",
+            "uri": "spotify:track:0bkTdkWwGk3OGFX0afD3Wj"
+          },
+          {
+            "album": {
+              "album_type": "album",
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+                  },
+                  "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+                  "name": "The Weeknd",
+                  "type": "artist",
+                  "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+                }
+              ],
+              "external_urls": {
+                "spotify": "https://open.spotify.com/album/2ODvWsOgouMbaA5xf0RkJe"
+              },
+              "id": "2ODvWsOgouMbaA5xf0RkJe",
+              "images": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab67616d0000b2734718e2b124f79258be7bc452",
+                  "width": 640
+                },
+                {
+                  "height": 300,
+                  "url": "https://i.scdn.co/image/ab67616d00001e024718e2b124f79258be7bc452",
+                  "width": 300
+                },
+                {
+                  "height": 64,
+                  "url": "https://i.scdn.co/image/ab67616d000048514718e2b124f79258be7bc452",
+                  "width": 64
+                }
+              ],
+              "is_playable": true,
+              "name": "Starboy",
+              "release_date": "2016-11-25",
+              "release_date_precision": "day",
+              "total_tracks": 18,
+              "type": "album",
+              "uri": "spotify:album:2ODvWsOgouMbaA5xf0RkJe"
+            },
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+                },
+                "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+                "name": "The Weeknd",
+                "type": "artist",
+                "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"
+                },
+                "id": "4tZwfgrHOc3mvqYlEYSvVi",
+                "name": "Daft Punk",
+                "type": "artist",
+                "uri": "spotify:artist:4tZwfgrHOc3mvqYlEYSvVi"
+              }
+            ],
+            "disc_number": 1,
+            "duration_ms": 230453,
+            "explicit": true,
+            "external_ids": {
+              "isrc": "USUG11600976"
+            },
+            "external_urls": {
+              "spotify": "https://open.spotify.com/track/7MXVkk9YMctZqd1Srtv4MB"
+            },
+            "id": "7MXVkk9YMctZqd1Srtv4MB",
+            "is_local": false,
+            "is_playable": true,
+            "name": "Starboy",
+            "popularity": 95,
+            "preview_url": "https://p.scdn.co/mp3-preview/57c1238d183c40da3157c2892346f58445b1377c?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+            "track_number": 1,
+            "type": "track",
+            "uri": "spotify:track:7MXVkk9YMctZqd1Srtv4MB"
+          },
+          {
+            "album": {
+              "album_type": "single",
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2FwDTncULUnmANIh7qKa5z"
+                  },
+                  "id": "2FwDTncULUnmANIh7qKa5z",
+                  "name": "FKJ",
+                  "type": "artist",
+                  "uri": "spotify:artist:2FwDTncULUnmANIh7qKa5z"
+                }
+              ],
+              "external_urls": {
+                "spotify": "https://open.spotify.com/album/4p8Kyy4XpCYLfNf3ZXGtCU"
+              },
+              "id": "4p8Kyy4XpCYLfNf3ZXGtCU",
+              "images": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab67616d0000b2732689cd007f8a1b349fb46224",
+                  "width": 640
+                },
+                {
+                  "height": 300,
+                  "url": "https://i.scdn.co/image/ab67616d00001e022689cd007f8a1b349fb46224",
+                  "width": 300
+                },
+                {
+                  "height": 64,
+                  "url": "https://i.scdn.co/image/ab67616d000048512689cd007f8a1b349fb46224",
+                  "width": 64
+                }
+              ],
+              "is_playable": true,
+              "name": "Risk",
+              "release_date": "2019-11-05",
+              "release_date_precision": "day",
+              "total_tracks": 1,
+              "type": "album",
+              "uri": "spotify:album:4p8Kyy4XpCYLfNf3ZXGtCU"
+            },
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/2FwDTncULUnmANIh7qKa5z"
+                },
+                "id": "2FwDTncULUnmANIh7qKa5z",
+                "name": "FKJ",
+                "type": "artist",
+                "uri": "spotify:artist:2FwDTncULUnmANIh7qKa5z"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/70gP6Ry4Uo0Yx6uzPIdaiJ"
+                },
+                "id": "70gP6Ry4Uo0Yx6uzPIdaiJ",
+                "name": "Bas",
+                "type": "artist",
+                "uri": "spotify:artist:70gP6Ry4Uo0Yx6uzPIdaiJ"
+              }
+            ],
+            "disc_number": 1,
+            "duration_ms": 238834,
+            "explicit": false,
+            "external_ids": {
+              "isrc": "GBKPL1970169"
+            },
+            "external_urls": {
+              "spotify": "https://open.spotify.com/track/2QDFsehUg5Fui2LOVpCw3Q"
+            },
+            "id": "2QDFsehUg5Fui2LOVpCw3Q",
+            "is_local": false,
+            "is_playable": true,
+            "linked_from": {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/70XZHFxrmZgQQ5Uw7v8tPO"
+              },
+              "id": "70XZHFxrmZgQQ5Uw7v8tPO",
+              "type": "track",
+              "uri": "spotify:track:70XZHFxrmZgQQ5Uw7v8tPO"
+            },
+            "name": "Risk",
+            "popularity": 57,
+            "preview_url": "https://p.scdn.co/mp3-preview/c8f3fe0106d1bf596af0133db1babc3936c2a308?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+            "track_number": 1,
+            "type": "track",
+            "uri": "spotify:track:2QDFsehUg5Fui2LOVpCw3Q"
+          }
+        ]
       }
     ],
 
