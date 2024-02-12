@@ -37,6 +37,10 @@ Hidde en Karenza begonnen met het maken van de HTML en CSS. Hidde doet de muziek
 
 Deze aanpassingen zijn gedaan op aparte branches. We gingen eerst de branche van team mergen met main. Daarna die van songs. Er waren conflicts met main maar die konden we makkelijk aanpassen. Wanneer de 2 branches waren gemerged was er een conflict met de styling. Articles waren los gezet zoals: article {} maar het moest zijn: .personeelInfo article {}. Dat was snel te zien waardoor het mergen en aanpassen niet lang duurde.
 
+### Versie 2
+Met wat styling aanpassingen en gefetchte data ziet de site er tot nu toe zo er uit:
+![Versie 2](https://github.com/Hiddevdp/DuckAngels/blob/styling-albums/read-me-img/v-2.png)
+
 ## JSON
 
 De json fi
