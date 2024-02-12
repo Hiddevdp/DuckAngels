@@ -14,14 +14,9 @@ Als team hebben wij besloten om een app te maken over muziek. Het eerste idee is
 We hebben een trello bord aangemaakt waarbij we kunnen zien wat de planning is voor ons en wie wat doet.
 Link: [Onze Trello](https://trello.com/b/X0KmrT8Y/duck-angles)
 
-## Data
+## Data op papier
 We hebben op een blad opgeschreven welke data we nodig kunnen hebben. 
 ![Data op papier](./read-me-img/data-papier.png)
-
-### Fetchen
-
-### Dataset
-
 
 ## Schets
 We begonnen met het maken van een schets van onze eerste idee. Het idee is om te beginnen met cards van ons zelf als intro en daarna cards van nummers die vanuit de dataset komen. Die cards kan je filteren en sorteren. 
@@ -33,3 +28,8 @@ Van de schetsen is er een wireframe gemaakt van de mobiele versie en home versie
 ## HTML CSS
 Hidde en Karenza begonnen met het maken van de HTML en CSS. Hidde doet de muziek sectie en Karenza de Team sectie.
 
+### Versie 1
+
+## Fetchen
+
+## Dataset
