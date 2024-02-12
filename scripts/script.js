@@ -20,22 +20,8 @@ async function siteInfo() { //Functie die de JSON file gaat ophalen en waardes g
     // document.getElementById('namePlaceholder').innerText = siteJson.name; //Zoekt het element met de Id namePlaceholder op en past de waarde aan gebaseerd op wat er in de variabele siteJson staat met de key (idk of het ook zo heet in JSON) name
     // console.log(siteJson)
 
-    // Make new array of only music
-    const muziekJson = [];
-    siteJson.mensen.forEach(item => {
-        item.tracks.forEach(track => {
-            muziekJson.push(track);
-        });
-    });
-    //console.log(muziekJson);
-
-    const muziekUserJson = []
-    siteJson.mensen.forEach(item => {
-
-    })
-
     personalInfoData(siteJson);
-    muziekData(muziekJson);
+    muziekData(siteJson);
 }
 siteInfo() //Voert de functie uit 
 
@@ -65,36 +51,38 @@ function personalInfoData(siteJson) {
     });
 };
 
-function muziekData(muziekJson) {
+function muziekData(siteJson) {
     const songsSection = document.querySelector(".songs");
-    Object.values(muziekJson).forEach(item => {
-        const name = item.name;
-        const artist = item.artists[0].name;
-        const album = item.album.name;
-        const year = item.album.release_date;
-        const img = item.album.images[1].url;
-        const genre = item.album.genre;
+    siteJson.mensen.forEach(user => {
+        user.tracks.forEach(item => {
+            const name = item.name;
+            const artist = item.artists[0].name;
+            const album = item.album.name;
+            const year = item.album.release_date;
+            const img = item.album.images[1].url;
+            const genre = item.album.genre;
+            const userImg = user.image; // Profile picture of the user
 
-        const html = 
-        ` 
-        <article>
-                <h2>${name}</h2>
-                <ul>
-                    <li>Artist: ${artist}</li>
-                    <li>Album: ${album} - ${year}</li>
-                </ul>
-                <h3>${genre}</h3>
-                <div>
-                    <img src="${img}" alt="Album Cover">
+            const html = 
+            ` 
+            <article>
+                    <h2>${name}</h2>
+                    <ul>
+                        <li>Artist: ${artist}</li>
+                        <li>Album: ${album} - ${year}</li>
+                    </ul>
+                    <h3>${genre}</h3>
                     <div>
-                        <div></div>
+                        <img src="${img}" alt="Album Cover">
+                        <div>
+                            <div></div>
+                        </div>
+                        <img src="${userImg}" alt="Profile Picture"> <!-- Replace placeholder with user's profile picture -->
                     </div>
-                    <img src="media/MyEverythingCover.png" alt="Profile Picture">
-                </div>
-            </article>
-        `;
-        songsSection.insertAdjacentHTML("beforeend", html);
+                </article>
+            `;
+            songsSection.insertAdjacentHTML("beforeend", html);
+        });
     });
 }
-
 
