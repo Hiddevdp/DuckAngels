@@ -5,4 +5,5 @@ async function siteInfo() { //Functie die de JSON file gaat ophalen en waardes g
     console.log(siteJson)
 }
 
+
 siteInfo() //Voert de functie uit 
