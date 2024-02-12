@@ -9,6 +9,7 @@
         "tracks": [
           {
           "album": {
+            "genre": "Techno",
             "album_type": "single",
             "artists": [
               {
@@ -82,6 +83,7 @@
           },
           {
           "album": {
+            "genre": "Techno",
             "album_type": "single",
             "artists": [
               {
@@ -173,6 +175,7 @@
           },
           {
             "album": {
+              "genre": "Techno",
               "album_type": "single",
               "artists": [
                 {
@@ -246,6 +249,7 @@
           },
           {
             "album": {
+              "genre": "Techno",
               "album_type": "single",
               "artists": [
                 {
@@ -319,6 +323,7 @@
           },
           {
             "album": {
+              "genre": "Techno",
               "album_type": "single",
               "artists": [
                 {
@@ -401,6 +406,7 @@
         "tracks": [
           {
             "album": {
+              "genre": "K-pop",
               "album_type": "album",
               "artists": [
                 {
@@ -474,6 +480,7 @@
           },
           {
             "album": {
+              "genre": "K-pop",
               "album_type": "single",
               "artists": [
                 {
@@ -574,6 +581,7 @@
           },
           {
             "album": {
+              "genre": "Pop",
               "album_type": "single",
               "artists": [
                 {
@@ -647,6 +655,7 @@
           },
           {
             "album": {
+              "genre": "K-pop",
               "album_type": "album",
               "artists": [
                 {
@@ -720,6 +729,7 @@
           },
           {
             "album": {
+              "genre": "K-pop",
               "album_type": "single",
               "artists": [
                 {
@@ -810,6 +820,7 @@
         "tracks": [
           {
             "album": {
+              "genre": "Latin",
               "album_type": "album",
               "artists": [
                 {
@@ -883,6 +894,7 @@
           },
           {
             "album": {
+              "genre": "Latin",
               "album_type": "album",
               "artists": [
                 {
@@ -965,6 +977,7 @@
           },
            {
             "album": {
+              "genre": "Latin",
               "album_type": "album",
               "artists": [
                 {
@@ -1038,6 +1051,7 @@
           },
            {
             "album": {
+              "genre": "Latin",
               "album_type": "album",
               "artists": [
                 {
@@ -1111,6 +1125,7 @@
           },
           {
             "album": {
+              "genre": "Latin",
               "album_type": "album",
               "artists": [
                 {
@@ -1202,6 +1217,7 @@
         "tracks": [
           {
             "album": {
+              "genre": "Hip-hop",
               "album_type": "single",
               "artists": [
                 {
@@ -1293,6 +1309,7 @@
           },
           {
             "album": {
+              "genre": "Pop",
               "album_type": "album",
               "artists": [
                 {
@@ -1366,6 +1383,7 @@
           },
           {
             "album": {
+              "genre": "Hip-hop",
               "album_type": "album",
               "artists": [
                 {
@@ -1448,6 +1466,7 @@
           },
           {
             "album": {
+              "genre": "Pop",
               "album_type": "album",
               "artists": [
                 {
@@ -1530,6 +1549,7 @@
           },
           {
             "album": {
+              "genre": "Hip-hop",
               "album_type": "single",
               "artists": [
                 {
@@ -1620,10 +1640,6 @@
           }
         ]
       }
-    ],
-
-    "muziek": [
-
     ]
   }
   

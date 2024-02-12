@@ -52,6 +52,11 @@ main {
   margin: 0 0 0 6px;
 }
 
+.songs h2 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .songs article {
   color: black;
   background-color: gray;
@@ -247,7 +252,7 @@ main a {
     position: relative;
     left: 20px;
     top: 20px;
-    margin: 0;
+    margin: 0 0px 10px 0px;
 }
 
 .personalInfo article ul {
@@ -255,7 +260,7 @@ main a {
     grid-column: 1;
     grid-row: 2;
     display: flex;
-    gap: 1px;
+    gap: 5px;
     flex-wrap: wrap;
     align-self: flex-start;
     padding: 0;
@@ -284,8 +289,7 @@ main a {
     width: 110px;
     height: 110px;
     margin-left: auto;
-    border: 1px solid var(--color-border);
-    background-color: var(--color-image);
+    object-fit: cover;
 }
 
 @media (max-width: 1200px) {
@@ -327,11 +331,6 @@ main a {
         display: none;
     }
 
-    h2 {
-        position: relative;
-        left: 60px;
-    }
-
     .personalInfo {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
@@ -349,7 +348,7 @@ main a {
 
     .personalInfo article h3 {
         position: relative;
-        top: 160px;
+        top: 200px;
 
     }
 
