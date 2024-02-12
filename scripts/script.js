@@ -49,7 +49,7 @@ function personalInfoData(siteJson) { //Maak een functie met als parameter de da
                 <li>${city}</li>
                 <li>${genre}</li>
             </ul>
-            <img src="${img}" alt="Profile picture">
+            <img src="${img}" alt="${name}">
         </article>
         `;
         personalInfoSection.insertAdjacentHTML("beforeend", html);
@@ -73,6 +73,7 @@ function muziekData(siteJson) {
             const img = item.album.images[1].url;
             const genre = item.album.genre;
             const userImg = user.image; 
+            const userName = user.name; 
 
             const html = 
             ` 
@@ -88,7 +89,7 @@ function muziekData(siteJson) {
                     <div>
                         <div></div>
                     </div>
-                    <img src="${userImg}" alt="">
+                    <img src="${userImg}" alt="${userName}">
                 </div>
                 <div></div>
                 <img src="${img}" alt="${name}">
