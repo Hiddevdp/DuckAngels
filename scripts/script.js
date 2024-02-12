@@ -31,7 +31,7 @@ async function siteInfo() { //Functie die de JSON file gaat ophalen en waardes g
 
     const muziekUserJson = []
     siteJson.mensen.forEach(item => {
-        
+
     })
 
     personalInfoData(siteJson);
@@ -76,7 +76,7 @@ function muziekData(muziekJson) {
         const genre = item.album.genre;
 
         const html = 
-        `
+        ` 
         <article>
                 <h2>${name}</h2>
                 <ul>
@@ -97,14 +97,4 @@ function muziekData(muziekJson) {
     });
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 
-siteInfo() //Voert de functie uit 
-=======
-siteInfo() //Voert de functie uit 
-
->>>>>>> c0730325665902e5a3ad2e56353e860d142c751e
-
->>>>>>> d30da32ff5a64f1c5c34e305d3d3da0d91379d04

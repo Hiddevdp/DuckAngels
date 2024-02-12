@@ -401,10 +401,6 @@
         "naam": "Xiao Nan",
         "geboortedatum": "03-06-2001",
         "favoriet_genre": "K-Pop",
-<<<<<<< HEAD
-        "image": "./public/img/xianan.JPG",
-        "woonplaats": "Den Oever"
-=======
         "image": "./public/img/xiaonan.JPG",
         "woonplaats": "Den Oever",
         "tracks": [
@@ -814,7 +810,6 @@
             "uri": "spotify:track:6gcuJpHu0Ey30D5WR76y98"
           }
         ]
->>>>>>> d30da32ff5a64f1c5c34e305d3d3da0d91379d04
       },
       {
         "naam": "Karenza",
@@ -1217,7 +1212,7 @@
         "naam": "Hidde",
         "geboortedatum": "25-03-1999",
         "favoriet_genre": "Hip-Hop",
-        "image": "./public/img/hidde.jpeg",
+        "image": "./public/img/hidde.jpg",
         "woonplaats": "Amsterdam",
         "tracks": [
           {
