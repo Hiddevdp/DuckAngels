@@ -12,17 +12,21 @@ Als team hebben wij besloten om een app te maken over muziek. Het eerste idee is
 
 ## Trello
 We hebben een trello bord aangemaakt waarbij we kunnen zien wat de planning is voor ons en wie wat doet.
+
 Link: [Onze Trello](https://trello.com/b/X0KmrT8Y/duck-angles)
 
 ## Data op papier
 We hebben op een blad opgeschreven welke data we nodig kunnen hebben. 
+
 ![Data op papier](./read-me-img/data-papier.png)
 
 ## Schets
 We begonnen met het maken van een schets van onze eerste idee. Het idee is om te beginnen met cards van ons zelf als intro en daarna cards van nummers die vanuit de dataset komen. Die cards kan je filteren en sorteren. 
+
 ![Schets](./read-me-img/schets.png)
 
 Van de schetsen is er een wireframe gemaakt van de mobiele versie en home versie.
+
 ![Schets](./read-me-img/wireframes.jpg)
 
 ## HTML CSS
@@ -39,10 +43,17 @@ Deze aanpassingen zijn gedaan op aparte branches. We gingen eerst de branche van
 
 ### Versie 2
 Met wat styling aanpassingen en gefetchte data ziet de site er tot nu toe zo er uit:
+
 ![Versie 2](https://github.com/Hiddevdp/DuckAngels/blob/styling-albums/read-me-img/v-2.png)
 
 ## JSON
 
-De json fi
+De dataset ziet er als volgt uit waarbij de teamleden in een array zitten met al de info van die persoon. 
 
-## Fetchen
+![Data 1](https://github.com/Hiddevdp/DuckAngels/blob/styling-albums/read-me-img/data-1.png)
+
+Bij de tracks wordt de data van de Spotify Rapid API gebruikt. Hiervoor wordt elk liedje opgehaald met Get Tracks. Elk teamlid kiest 5 liedjes uit voor de dataset. Dan op Rapid API moet je de ID van het nummer via Spotify gebruiken om de nummers te krijgen. Dan kopiëren we de data die we krijgen van dat ene nummer en maken we handmatig een array van de 5 nummers bij elk teamlid.  
+
+![Data 2](https://github.com/Hiddevdp/DuckAngels/blob/styling-albums/read-me-img/data-2.png)
+
+![Data 2](https://github.com/Hiddevdp/DuckAngels/blob/styling-albums/read-me-img/rapid-api-spotify.png)
