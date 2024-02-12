@@ -134,6 +134,8 @@ body {
 
 main {
     display: none;
+    margin: auto;
+    justify-content: center;
 }
 
 .visually-hidden {
@@ -196,7 +198,9 @@ header nav img {
     height: 60px;
 }
 
-header a {
+main a {
+  display: block;
+  width: fit-content;
     text-decoration: none;
     font-size: 10px;
     color: var(--color-text);
@@ -284,10 +288,7 @@ header a {
     background-color: var(--color-image);
 }
 
-@media (max-width: 992px) {
-  main {
-    display: block;
-  }
+@media (max-width: 1200px) {
 
   .songs {
     width: unset;
@@ -313,7 +314,7 @@ header a {
 
 
 /* desktop */
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
 
   main {
     display: grid;
@@ -322,7 +323,7 @@ header a {
     padding: 50px;
   }
 
-    header a{
+    main a{
         display: none;
     }
 
