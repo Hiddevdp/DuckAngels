@@ -1,4 +1,23 @@
+
 const main = document.querySelector(".personalInfo");
+
+
+// loading state
+document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(function () {
+        hideLoading(); 
+    }, 1000); 
+});
+
+// na de timer, content laten zien
+function hideLoading() {
+    var loadingContainer = document.getElementById("loadingContainer");
+    var content = document.querySelector("main");
+
+    loadingContainer.style.display = "none";
+    content.style.display = "grid";
+}
+
 
 async function siteInfo() { //Functie die de JSON file gaat ophalen en waardes gaat veranderen
     const response = await fetch("./public/data/siteData.json"); //Maakt de variabele response aan door het JSON bestand te fetchen (en te wachten tot het binnen is doormiddel van await)
@@ -13,6 +32,7 @@ siteInfo() //Voert de functie uit
 function changeData(siteJson) {
     Object.values(siteJson.mensen).forEach(item => {
         const name = item.naam;
+
 
         const html = 
         `
@@ -29,3 +49,7 @@ function changeData(siteJson) {
         main.insertAdjacentHTML("beforeend", html);
     });
 }
+
+siteInfo() //Voert de functie uit 
+
+
