@@ -12,7 +12,7 @@ function hideLoading() {
     var content = document.querySelector("main");
 
     loadingContainer.style.display = "none";
-    content.style.display = "block";
+    content.style.display = "grid";
 }
 
 async function siteInfo() { //Functie die de JSON file gaat ophalen en waardes gaat veranderen

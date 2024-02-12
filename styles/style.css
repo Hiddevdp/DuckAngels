@@ -1,3 +1,13 @@
+:root {
+  --color-border: #ddd;
+  --color-article: lightgray;
+  --color-headers: black;
+  --color-text: black;
+  --color-image: white;
+  --color-button: lightgray;
+  --color-listitem: white;
+  --color-loading: blue;
+}
 
 * {
   margin: 0;
@@ -15,9 +25,7 @@ main {
 }
 
 .songs {
-  width: 50vw;
   border: 1px solid gray;
-  margin: 16px 1px;
   padding: 16px;
   position: relative;
 }
@@ -117,43 +125,6 @@ main {
   right: 0;
 }
 
-@media (max-width: 576px) {
-  main {
-    display: block;
-  }
-  .songs {
-    width: unset;
-  }
-
-  .songs h2 {
-    font-size: 18px;
-  }
-
-  .songs ul {
-    font-size: 12px;
-  }
-
-  .songs h3 {
-    font-size: 12px;
-    margin-top: 12px !important;
-  }
-
-  .songs article {
-    height: 100px;
-  }
-}
-
-:root {
-    --color-border: #ddd;
-    --color-article: lightgray;
-    --color-headers: black;
-    --color-text: black;
-    --color-image: white;
-    --color-button: lightgray;
-    --color-listitem: white;
-    --color-loading: blue;
-}
-
 /* BODY */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 
@@ -244,14 +215,14 @@ header a {
 /* PERSONAL INFO */
 .personalInfo {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 20px;
     position: relative;
+    margin-bottom: 50px;
+    padding: 16px;
 }
 
 .personalInfo article {
-    margin-left: 20px;
-    margin-right: 20px;
     height: 150px;
     box-sizing: border-box;
     border: 1px solid var(--color-border);
@@ -308,15 +279,48 @@ header a {
     top: 20px;
     width: 110px;
     height: 110px;
+    margin-left: auto;
     border: 1px solid var(--color-border);
     background-color: var(--color-image);
 }
 
+@media (max-width: 992px) {
+  main {
+    display: block;
+  }
 
+  .songs {
+    width: unset;
+  }
+
+  .songs h2 {
+    font-size: 18px;
+  }
+
+  .songs ul {
+    font-size: 12px;
+  }
+
+  .songs h3 {
+    font-size: 12px;
+    margin-top: 12px !important;
+  }
+
+  .songs article {
+    height: 100px;
+  }
+}
 
 
 /* desktop */
-@media (min-width: 600px) {
+@media (min-width: 992px) {
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 50px;
+  }
 
     header a{
         display: none;
@@ -329,16 +333,17 @@ header a {
 
     .personalInfo {
         grid-template-columns: repeat(2, 1fr);
-        width: 50%;
         gap: 10px;
-        left: 60px;
+        margin: 0px;
+        padding: 0px;
+        height: fit-content;
     }
 
     .personalInfo article {
-        width: 300px;
         height: 320px;
         position: relative;
         margin: 0;
+        top: 0px;
     }
 
     .personalInfo article h3 {
