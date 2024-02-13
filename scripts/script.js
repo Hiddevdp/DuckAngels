@@ -10,7 +10,7 @@ function hideLoading() { // functie voor hideLoading
     var content = document.querySelector("main"); // haal de content "main" op
 
     loadingContainer.style.display = "none"; // verberg dan de loading container 
-    content.style.display = "block"; // toon de content in block stijl
+    content.style.display = "grid"; // toon de content in grid stijl
 }
 
 async function siteInfo() { //Functie die de JSON file gaat ophalen en waardes gaat veranderen
